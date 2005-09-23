@@ -12,9 +12,7 @@ class MyHTMLParser(HTMLParser):
 	def handle_endtag(self, tag):
 		print "Encountered the end of a %s tag" % tag
 
-
-
-filename = '/home/takano32/tmp/htmlparse.html'
+filename = '/home/takano32/cvswork/rsswriter/htmlparse.html'
 infile = open(filename)
 
 body = infile.read()
